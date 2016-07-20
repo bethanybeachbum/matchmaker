@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- always include this -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- always include this -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MatchMaker</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    
+
+    <!-- Page Content -->
+<div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Match Maker Service - 
+                    <small> Here you will find Sea Colony Tennis' database of tennis players interested in doubles or singles play.  Enter your information below to find a match.</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+        <!-- beginning of First Name / Last Name -->
+            <div class="col-lg-3 col-md-3 portfolio-item">
+                
+                <h3>    <a href="#">Your name:</a> </h3>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true">
+                        </span>
+                    </span>
+                    <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                    </div> 
+                </div>
+            <!-- end of First Name / Last Name -->
+            <!-- beginning of Gender -->
+            <div class="col-lg-3 col-md-3 portfolio-item">
+                <h3> <a href="#">Gender:</a> </h3>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="Male">
+                    </div><!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="Female">
+                    </div><!-- /input-group -->                    
+                  </div><!-- /.col-lg-6 -->                
+            </div>
+            <!-- end of Gender -->
+            <!-- beginning of type of play -->
+            <div class="col-lg-6 col-md-3 portfolio-item">
+                <h3>
+                    <a href="#">Type of Play:</a>
+                </h3>
+                
+                <div class="col-lg-4">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Singles">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="Singles">
+                      </div><!-- /input-group -->
+                       <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Singles">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="Doubles">
+                    </div><!-- /input-group -->                    
+                  </div><!-- /.col-lg-6 -->                
+            </div>
+            <!-- end of "Type of Play" -->
+        </div>
+        <!-- /.row -->
+            <!-- beginning of Experience Level -->
+            <div class="col-md-6 portfolio-item" >
+                <h3> <a href="#">USTA Rating /</a> </h3>
+                <h3> <a href="#">Experience Level:</a> </h3>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="< 3.0 or Beginner">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="< 3.0 or Just Learning">
+                    </div>
+                    <!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="3.0 or Intermediate">
+                    </div><!-- /input-group -->   
+
+                    <!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="3.5 or Intermediate">
+                    </div><!-- /input-group -->  
+
+                    <!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="4.0 or Advanced">
+                    </div><!-- /input-group -->  
+
+
+                    <!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="4.5 or College Level">
+                    </div><!-- /input-group -->  
+
+                    <!-- /input-group -->
+                    <div class="input-group">
+                      <span class="input-group-addon">
+                        <input type="radio" aria-label="..." value="Male">
+                      </span>
+                      <input type="text" class="form-control" aria-label="..." value="> 4.5 or Pro">
+                    </div><!-- /input-group -->  
+
+                  </div><!-- /.col-lg-6 -->                
+            </div >
+            <!-- end of Experience Level -->
+            <!--/div -->
+        
+            <div class="col-md-4 portfolio-item">
+                    <!-- Calendar -->
+                    <h3>  <a href="#">Dates of Availability</a>  </h3>
+                    
+                    <label for="meeting">First Date  Available: </label><input id="meeting" type="date" value="2016-01-01"/>
+                    <label for="meeting">Last Date  Available: </label><input id="meeting" type="date" value="2016-01-01"/>
+                    
+                    <!-- OLD FORM 
+                    <form>
+                    From: <script type="text/javascript" src="http://www.snaphost.com/jquery/Calendar.aspx"></script> &nbsp;
+                    To: <script type="text/javascript">
+                    $(function () {
+                    $("#SnapHost_Calendar2")
+                    .datepicker({ showOn: 'both', buttonImage: 'http://www.snaphost.com/jquery/calendar.gif',
+                    buttonImageOnly: true, changeMonth: true, showOtherMonths: true, selectOtherMonths: true
+                    });});</script>
+                    <input name="SnapHost_Calendar2" id="SnapHost_Calendar2" type="text" /> 
+                    </form>
+                    -->
+            </div>
+                    <!-- End of Calendar -->
+
+            <div class="col-md-4 portfolio-item">
+            </div>
+            <div class="col-md-4 portfolio-item">
+            </div>
+            <div class="col-md-4 portfolio-item">
+            </div>
+
+            <input type="submit" value="Search">
+        
+        <div class="col-md-4 portfolio-item">
+            </div>
+            <div class="col-md-4 portfolio-item">
+            </div>
+
+
+         
+ </div>  
+ <hr>
+
+
+
+<hr>
+<!-- Extra Radio Buttons--> 
+<div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+      Singles
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      Doubles
+    </label>
+  </div>
+
+<hr>
+
+<!-- More Extra Radio Buttons-->  
+    <div class="row text-center"> 
+         <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-primary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+                  </label>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+<div class="container">
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+</div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
